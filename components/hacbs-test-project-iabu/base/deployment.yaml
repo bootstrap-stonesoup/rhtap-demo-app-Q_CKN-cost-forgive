@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-iabu
     spec:
       containers:
-      - image: quay.io/bootstrap/rhtap-demo-ugko-tenant/rhtap-demo-app/hacbs-test-project-iabu@sha256:358d8d567f195c27428ae0d5d7912564bec62a3eba6f0f8792664bd2dac621d8
+      - image: quay.io/bootstrap/rhtap-demo-ugko-tenant/rhtap-demo-app/hacbs-test-project-iabu@sha256:218254b565a1c296eed26c418fa76afd1654d3606c46b0bbb5859678c2bd5743
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
